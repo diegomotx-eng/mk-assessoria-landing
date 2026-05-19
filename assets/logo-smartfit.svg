@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 60" width="170" height="60">
+  <text x="4" y="36" font-family="Arial Rounded MT Bold, Nunito, Arial, sans-serif" font-size="30" font-weight="400" fill="#9b9b9b">smart </text>
+  <text x="100" y="36" font-family="Arial Rounded MT Bold, Nunito, Arial, sans-serif" font-size="30" font-weight="700" fill="#f5a623">fit</text>
+  <!-- smile arc under "fit" -->
+  <path d="M98 46 Q122 58 146 46" stroke="#f5a623" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

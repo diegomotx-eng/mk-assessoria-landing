@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" fill="none">
+  <!-- White background -->
+  <rect width="220" height="200" fill="#ffffff"/>
+
+  <!-- ============ LEFT TALL BUILDING ============ -->
+  <!-- Main gold body with angled top -->
+  <polygon points="40,30 78,18 78,128 40,128" fill="#c9a227"/>
+  <!-- Front darker face (3D effect) -->
+  <polygon points="40,30 56,38 56,128 40,128" fill="#2d2d2d"/>
+  <!-- Angled top slope (lighter) -->
+  <polygon points="56,38 78,30 78,18" fill="#1f1f1f"/>
+  <!-- Right edge (dark vertical) -->
+  <polygon points="78,18 82,22 82,128 78,128" fill="#1f1f1f"/>
+
+  <!-- ============ MIDDLE-LEFT BUILDING (dark) ============ -->
+  <polygon points="82,55 100,48 100,128 82,128" fill="#2d2d2d"/>
+  <!-- Gold accent strip on right edge -->
+  <polygon points="98,49 100,48 100,128 98,128" fill="#c9a227"/>
+
+  <!-- ============ MIDDLE FRONT BLOCK ============ -->
+  <polygon points="100,75 112,72 112,128 100,128" fill="#c9a227"/>
+  <polygon points="100,75 104,77 104,128 100,128" fill="#2d2d2d"/>
+
+  <!-- ============ RIGHT TALL BUILDING with windows ============ -->
+  <!-- Main dark body (trapezoidal, wider at bottom) -->
+  <polygon points="120,32 165,52 165,130 120,130" fill="#2d2d2d"/>
+  <!-- Gold vertical window strips -->
+  <rect x="126" y="44" width="2.5" height="84" fill="#c9a227"/>
+  <rect x="133" y="47" width="2.5" height="81" fill="#c9a227"/>
+  <rect x="140" y="50" width="2.5" height="78" fill="#c9a227"/>
+  <rect x="147" y="53" width="2.5" height="75" fill="#c9a227"/>
+  <rect x="154" y="56" width="2.5" height="72" fill="#c9a227"/>
+  <rect x="160" y="59" width="2.5" height="69" fill="#c9a227"/>
+  <!-- Right dark edge (shadow) -->
+  <polygon points="162,58 165,52 165,130 162,130" fill="#1a1a1a"/>
+
+  <!-- ============ SMALL HOUSE at front center ============ -->
+  <!-- Roof (peaked) - dark side -->
+  <polygon points="85,128 102,114 119,128" fill="#2d2d2d"/>
+  <!-- Roof gold accent edge -->
+  <polygon points="102,114 119,128 117,128 102,116" fill="#c9a227"/>
+  <!-- House body (gold) -->
+  <rect x="88" y="128" width="28" height="18" fill="#c9a227"/>
+  <!-- House front shadow strip (left side) -->
+  <polygon points="88,128 92,130 92,146 88,146" fill="#a8841a"/>
+  <!-- Window (4-pane) -->
+  <rect x="98" y="133" width="8" height="8" fill="#2d2d2d"/>
+  <line x1="102" y1="133" x2="102" y2="141" stroke="#c9a227" stroke-width="0.8"/>
+  <line x1="98" y1="137" x2="106" y2="137" stroke="#c9a227" stroke-width="0.8"/>
+
+  <!-- ============ BASE CURVES (the swoosh platform) ============ -->
+  <!-- Outer dark curve (creates 3D shadow base) -->
+  <path d="M22,158 Q110,200 198,148"
+        stroke="#2d2d2d" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Gold curve sitting on top -->
+  <path d="M32,150 Q110,188 188,140"
+        stroke="#c9a227" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Subtle highlight on gold curve -->
+  <path d="M40,148 Q110,180 180,140"
+        stroke="#e2b93b" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+</svg>

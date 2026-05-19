@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" width="160" height="60">
+  <!-- curl espiral vermelho -->
+  <path d="M30 8 C50 2 68 10 66 26 C64 40 48 46 36 38 C24 30 22 16 32 12 C42 8 52 16 50 26 C48 34 40 38 34 34"
+        stroke="#c0392b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- RIP CURL -->
+  <text x="0" y="56" font-family="Arial Black, Impact, sans-serif" font-size="22" font-weight="900" fill="#1a1a2e" letter-spacing="2">RIP CURL</text>
+</svg>
